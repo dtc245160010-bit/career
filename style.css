@@ -1,0 +1,698 @@
+/* ==========================================
+   CODEGYM CAREER - MATERIAL DESIGN
+========================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #263238;
+  background: #f5f7fa;
+}
+
+/* ==========================================
+   NAVBAR
+========================================== */
+
+.navbar {
+  background: #1565c0 !important;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.nav-link {
+  color: white !important;
+
+  font-weight: 500;
+
+  margin-left: 10px;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+/* ==========================================
+   HERO
+========================================== */
+
+.hero {
+  min-height: 700px;
+
+  padding-top: 150px;
+  padding-bottom: 100px;
+
+  background: linear-gradient(135deg, #1565c0, #1976d2, #42a5f5);
+
+  color: white;
+
+  display: flex;
+
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 52px;
+
+  font-weight: 700;
+
+  line-height: 1.2;
+
+  margin-bottom: 15px;
+}
+
+.hero-title span {
+  color: #ffca28;
+}
+
+.hero-subtitle {
+  font-size: 32px;
+
+  font-weight: 500;
+}
+
+.hero-text {
+  font-size: 18px;
+
+  line-height: 1.8;
+
+  max-width: 650px;
+
+  margin-top: 20px;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+}
+
+/* HERO CARD */
+
+.hero-card {
+  background: white;
+
+  color: #263238;
+
+  padding: 45px 35px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+
+  transition: 0.3s;
+}
+
+.hero-card:hover {
+  transform: translateY(-8px);
+}
+
+.hero-card > i {
+  font-size: 65px;
+
+  color: #1565c0;
+
+  margin-bottom: 20px;
+}
+
+.hero-card h3 {
+  font-weight: 700;
+}
+
+.hero-stat {
+  display: flex;
+
+  justify-content: space-around;
+
+  margin-top: 30px;
+
+  border-top: 1px solid #ddd;
+
+  padding-top: 25px;
+}
+
+.hero-stat strong {
+  display: block;
+
+  font-size: 25px;
+
+  color: #1565c0;
+}
+
+.hero-stat span {
+  font-size: 13px;
+
+  color: #777;
+}
+
+/* ==========================================
+   SECTION
+========================================== */
+
+.section {
+  padding: 90px 0;
+}
+
+.section-gray {
+  background: #eef3f8;
+}
+
+.section-title {
+  text-align: center;
+
+  margin-bottom: 55px;
+}
+
+.section-title span {
+  color: #1976d2;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  font-size: 14px;
+}
+
+.section-title h2 {
+  font-size: 38px;
+
+  font-weight: 700;
+
+  margin-top: 10px;
+}
+
+.section-title p {
+  color: #607d8b;
+
+  max-width: 700px;
+
+  margin: 15px auto;
+}
+
+/* ==========================================
+   MATERIAL CARD
+========================================== */
+
+.material-card {
+  background: white;
+
+  padding: 40px 25px;
+
+  min-height: 280px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s;
+}
+
+.material-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.icon-box {
+  width: 70px;
+
+  height: 70px;
+
+  margin: 0 auto 25px;
+
+  border-radius: 50%;
+
+  background: #e3f2fd;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.icon-box i {
+  font-size: 30px;
+
+  color: #1565c0;
+}
+
+.material-card h4 {
+  font-weight: 600;
+
+  margin-bottom: 15px;
+}
+
+.material-card p {
+  color: #607d8b;
+
+  line-height: 1.7;
+}
+
+/* ==========================================
+   BENEFIT CARD
+========================================== */
+
+.benefit-card {
+  background: white;
+
+  padding: 35px 25px;
+
+  text-align: center;
+
+  min-height: 250px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s;
+}
+
+.benefit-card:hover {
+  transform: translateY(-6px);
+}
+
+.benefit-card > i {
+  font-size: 45px;
+
+  color: #1976d2;
+
+  margin-bottom: 20px;
+}
+
+.benefit-card h4 {
+  font-weight: 600;
+}
+
+.benefit-card p {
+  color: #607d8b;
+
+  line-height: 1.7;
+}
+
+/* ==========================================
+   TIMELINE
+========================================== */
+
+.timeline {
+  max-width: 850px;
+
+  margin: auto;
+}
+
+.timeline-item {
+  display: flex;
+
+  align-items: flex-start;
+
+  margin-bottom: 35px;
+}
+
+.timeline-number {
+  min-width: 65px;
+
+  height: 65px;
+
+  border-radius: 50%;
+
+  background: #1565c0;
+
+  color: white;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-weight: bold;
+
+  font-size: 18px;
+
+  box-shadow: 0 5px 15px rgba(21, 101, 192, 0.3);
+}
+
+.timeline-content {
+  background: white;
+
+  margin-left: 25px;
+
+  padding: 25px 30px;
+
+  border-radius: 10px;
+
+  flex: 1;
+
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+
+.timeline-content h4 {
+  font-weight: 600;
+
+  color: #1565c0;
+}
+
+.timeline-content p {
+  margin-bottom: 0;
+
+  color: #607d8b;
+}
+
+/* ==========================================
+   COURSE
+========================================== */
+
+.course-card {
+  background: white;
+
+  padding: 40px 30px;
+
+  border-radius: 15px;
+
+  text-align: center;
+
+  min-height: 320px;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s;
+}
+
+.course-card:hover {
+  transform: translateY(-8px);
+}
+
+.course-icon {
+  font-size: 65px;
+
+  color: #1565c0;
+
+  margin-bottom: 20px;
+}
+
+.course-card h3 {
+  font-weight: 700;
+}
+
+.course-card p {
+  color: #607d8b;
+
+  min-height: 75px;
+}
+
+.course-card a {
+  color: #1565c0;
+
+  font-weight: 600;
+
+  text-decoration: none;
+}
+
+/* ==========================================
+   CAREER SERVICE
+========================================== */
+
+.career-service {
+  padding: 90px 0;
+
+  background: linear-gradient(135deg, #0d47a1, #1976d2);
+
+  color: white;
+}
+
+.career-service h2 {
+  font-size: 40px;
+
+  font-weight: 700;
+
+  margin: 20px 0;
+}
+
+.career-service p {
+  font-size: 17px;
+
+  line-height: 1.8;
+
+  margin-bottom: 30px;
+}
+
+.service-list {
+  background: rgba(255, 255, 255, 0.1);
+
+  padding: 35px;
+
+  border-radius: 15px;
+}
+
+.service-list div {
+  padding: 14px 0;
+
+  font-size: 18px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.service-list div:last-child {
+  border-bottom: none;
+}
+
+.service-list i {
+  color: #ffca28;
+
+  margin-right: 10px;
+}
+
+/* ==========================================
+   TESTIMONIAL
+========================================== */
+
+.testimonial-card {
+  background: white;
+
+  padding: 35px 30px;
+
+  text-align: center;
+
+  border-radius: 15px;
+
+  min-height: 280px;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.avatar {
+  width: 70px;
+
+  height: 70px;
+
+  border-radius: 50%;
+
+  background: #1565c0;
+
+  color: white;
+
+  margin: 0 auto 20px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 28px;
+
+  font-weight: bold;
+}
+
+.testimonial-card p {
+  font-style: italic;
+
+  color: #607d8b;
+
+  line-height: 1.8;
+}
+
+.testimonial-card h5 {
+  font-weight: 600;
+
+  color: #1565c0;
+}
+
+/* ==========================================
+   CTA
+========================================== */
+
+.cta-section {
+  padding: 90px 0;
+
+  background: #e3f2fd;
+}
+
+.cta-section h2 {
+  font-size: 42px;
+
+  font-weight: 700;
+
+  color: #0d47a1;
+}
+
+.cta-section h3 {
+  color: #1565c0;
+
+  font-weight: 700;
+
+  margin-top: 25px;
+}
+
+.form-card {
+  background: white;
+
+  padding: 40px;
+
+  border-radius: 15px;
+
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+}
+
+.form-card h3 {
+  color: #1565c0;
+
+  margin-bottom: 30px;
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+.footer {
+  background: #102a43;
+
+  color: white;
+
+  padding: 60px 0 25px;
+}
+
+.footer h4 {
+  font-weight: 700;
+}
+
+.footer h5 {
+  font-weight: 600;
+}
+
+.footer p {
+  color: #cfd8dc;
+
+  line-height: 1.8;
+}
+
+.footer hr {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.social a {
+  color: white;
+
+  font-size: 25px;
+
+  margin-right: 15px;
+
+  transition: 0.3s;
+}
+
+.social a:hover {
+  color: #42a5f5;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 991px) {
+  .hero {
+    padding-top: 130px;
+
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 42px;
+  }
+
+  .hero-text {
+    margin-left: auto;
+
+    margin-right: auto;
+  }
+
+  .hero-card {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 65px 0;
+  }
+
+  .hero {
+    min-height: auto;
+
+    padding-top: 120px;
+  }
+
+  .hero-title {
+    font-size: 35px;
+  }
+
+  .hero-subtitle {
+    font-size: 25px;
+  }
+
+  .hero-buttons .btn {
+    display: block;
+
+    width: 100%;
+
+    margin-bottom: 10px;
+  }
+
+  .section-title h2 {
+    font-size: 30px;
+  }
+
+  .timeline-item {
+    align-items: flex-start;
+  }
+
+  .timeline-number {
+    min-width: 50px;
+
+    height: 50px;
+
+    font-size: 14px;
+  }
+
+  .timeline-content {
+    margin-left: 15px;
+
+    padding: 20px;
+  }
+
+  .career-service h2 {
+    font-size: 32px;
+  }
+
+  .cta-section h2 {
+    font-size: 32px;
+
+    margin-bottom: 30px;
+  }
+}
